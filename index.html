@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KalaPagi Kopi</title>
+    <link
+      rel="icon"
+      href="image/WhatsApp_Image_2020-08-13_at_11.51.43_AM-removebg-preview.png"
+    />
+    <link rel="stylesheet" href="style/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Menu burger -->
+    <div class="burger-menu" id="burger-menu">
+      <div class="burger-menu-header">
+        <img
+          src="image/WhatsApp_Image_2020-08-13_at_11.51.43_AM-removebg-preview.png"
+          alt=""
+        />
+        <div class="close-button" onclick="buttonMobileNav()">
+          <button><i class="fa fa-close"></i></button>
+        </div>
+      </div>
+
+      <a href="#header" class="burger-menu-nav">Home</a>
+      <a href="#menu" class="burger-menu-nav">Our's Menu</a>
+      <a href="#gallery" class="burger-menu-nav">Gallery</a>
+      <a href="#contact-us" class="burger-menu-nav">Contact</a>
+    </div>
+
+    <div id="container">
+      <!-- <div class="circle"></div> -->
+      <header id="header">
+        <a href=""
+          ><img
+            src="image/WhatsApp_Image_2020-08-13_at_11.51.43_AM-removebg-preview.png"
+            alt="logo"
+            class="logo"
+            id="header-img"
+        /></a>
+        <nav class="navigation" id="nav-bar">
+          <a href="#header" class="nav-link">Home</a>
+          <a href="#menu" class="nav-link">Our's Menu</a>
+          <a href="#gallery" class="nav-link">Gallery</a>
+          <a href="#contact-us" class="nav-link">Contact</a>
+        </nav>
+
+        <div class="menu-button-burger">
+          <button>
+            <i class="fa fa-reorder" onclick="buttonMobileNav()"></i>
+          </button>
+        </div>
+
+        <button class="button">Get It Now!</button>
+      </header>
+
+      <div class="content">
+        <div class="textBox">
+          <h2>
+            Coffee and Discussion <br />
+            It's <span>KalaPagi</span> <span>Coffee</span>.
+          </h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis in
+            facilis quaerat, aut ad voluptates eaque officia quia voluptatem, id
+            vitae nobis dolorem fuga exercitationem?
+          </p>
+          <a href="#">Learn More<i class="fa fa-chevron-right"></i></a>
+        </div>
+        <div class="imgBox">
+          <img
+            src="image/galery/2020-04-19_08.59.09_1-removebg-preview.png"
+            alt="KalaPagi Kopi"
+            class="kalaPagiKopi"
+          />
+        </div>
+      </div>
+
+      <section id="menu">
+        <h2 class="our-menu">Our Menu</h2>
+        <div class="card">
+          <img src="image/kalapagikopi-___B_TkpVZpF_u___-.jpg" alt="" />
+          <div class="text">
+            <h3>Half Liter of Coffee Milk</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              aliquam!
+            </p>
+            <button class="button">Choose</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/kalapagikopi-___CAUKtSep1VR___-.jpg" alt="" />
+          <div class="text">
+            <h3>250 ml of Coffee Milk</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              aliquam!
+            </p>
+            <button class="button">Choose</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="image/kalapagikopi-___CCNOHbNpkrG___-.jpg" alt="" />
+          <div class="text">
+            <h3>One Liter of Coffee Milk</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem,
+              aliquam!
+            </p>
+            <button class="button">Choose</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="video" id="gallery">
+        <iframe
+          id="video"
+          height="315"
+          src="https://www.youtube.com/embed/XQlaFJHU7Lw"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </section>
+
+      <section class="contact" id="contact-us">
+        <p>Home-made original palm sugar milk coffee.</p>
+        <form action=" https://www.freecodecamp.com/email-submit" id="form">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter your email address.."
+          />
+          <input type="submit" id="submit" value="Get Started" class="button" />
+        </form>
+
+        <ul class="sci">
+          <li>
+            <a href=""><i class="fa fa-facebook-square"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-twitter"></i></a>
+          </li>
+          <li>
+            <a href=""><i class="fa fa-instagram"></i></a>
+          </li>
+        </ul>
+      </section>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
